@@ -4,3 +4,6 @@ Topics Covered
 ----------------------------
 - HTML
 - CSS
+- JavaScript
+- Jest
+- Bootstrap
