@@ -7,3 +7,4 @@ Topics Covered
 - JavaScript
 - Jest
 - Bootstrap
+- React
