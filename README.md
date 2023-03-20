@@ -1,4 +1,4 @@
-Learning Web Development.
+Learning FrontEnd Web Development.
 
 Topics Covered 
 ----------------------------
