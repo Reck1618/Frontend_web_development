@@ -20,6 +20,7 @@ function FetchApi() {
             <h2>Last Name: {
                 user.results[0].name.last
             }</h2>
+            <img src={user.results[0].picture.large} alt=""></img>
         </div>
     ) : (
         <h1>Data Pending...</h1>
