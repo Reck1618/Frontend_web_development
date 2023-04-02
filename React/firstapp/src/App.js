@@ -5,6 +5,7 @@ import Navigation from './components/Navigation';
 import SignUp from './components/SignUp';
 import Goals from './components/Goals';
 import FetchApi from './components/FetchApi';
+import Contact from './components/Contact';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
     <Route path="/" element={<HomePage />} />
     <Route path="/aboutMe" element={<AboutMe />} />
     <Route path="/signUp" element={<SignUp />} />
+    <Route path="/contact" element={<Contact />} />
     <Route path="/goals" element={<Goals />} />
     <Route path="/fetchApi" element={<FetchApi />} />
 
