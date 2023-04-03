@@ -29,7 +29,7 @@ function HomePage() {
     return (
         <> 
           {
-            time > 6 && time < 18 ? <Greeting greet="friend"/> : <Greeting greet="stranger"/>
+            time > 8 && time < 18 ? <Greeting greet="friend"/> : <Greeting greet="stranger"/>
             }
         
             <Button/> 
