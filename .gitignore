@@ -1,7 +1,4 @@
-package.json
-.hintrc
-package-lock.json
 node_modules/
-ZMT/.idea
+ZTM/.idea
 ```
 
