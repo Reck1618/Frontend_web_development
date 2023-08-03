@@ -10,7 +10,7 @@ function Header () {
                 </a>
             </div>
             <nav id="header_nav">
-                <ul id="header_nav-list">
+                <ul>
                     <li>
                         <a href="/">Home</a>
                     </li>
