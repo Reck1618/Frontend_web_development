@@ -4,8 +4,8 @@ import Logo from '../assets/Logo.svg'
 function Header () {
     return (
         <header id="header">
-            <div id="brand_logo">
-                <a>
+            <div id="header_brand-logo">
+                <a href="/">
                     <img src={Logo} alt="brand-logo" />
                 </a>
             </div>

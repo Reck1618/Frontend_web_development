@@ -1,42 +1,39 @@
+@import url(components/partials/css/header.css);
+@import url(components/partials/css/footer.css);
+@import url(components/partials/css/highlights.css);
+@import url(components/partials/css/hero.css);
+@import url(components/partials/css/about.css);
+@import url(components/partials/css/testimonials.css);
+
+:root {
+  --primary-green : #495e57;
+  --primary-yellow: #f4ce14;
+  --seconday-one: #EE9972;
+  --seconday-two: #FBDABB;
+  --white: #EDEFEE;
+  --black: #333333;
+}
+
 #root {
   display: flex;
   flex-direction: column;
-  max-width: 1280px;
+  background-color: var(--white);
   margin: 0 auto;
 }
 
-
-/* header */
-#header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-}
-
-#brand_logo {
-  display: flex;
-}
-
-#brand_logo a img {
-  height: 50px;
-  width: 200px;
-  padding: 10px 10px;
-}
-
-#header_nav {
-  display: flex;
-  flex: 1;
-  justify-content: flex-end;
-}
-
-#header_nav ul {
-  display: flex;
-  flex-direction: row;
-  gap: 1rem;
-  list-style: none;
-}
-
-#header_nav ul li a {
+.button {
+  display: inline-block;
+  font-weight: 600;
   text-decoration: none;
+  background-color: var(--primary-yellow);
+  color: var(--black);
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: var(--seconday-two);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }

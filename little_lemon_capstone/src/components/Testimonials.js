@@ -1,5 +1,5 @@
 import React from 'react';
-import ReviewCard from './partials/ReviewCard';
+import ReviewCard from './partials/scripts/ReviewCard';
 import Adam_img from '../assets/adam';
 import Ella_img from '../assets/ella';
 import Chang_img from '../assets/chang';

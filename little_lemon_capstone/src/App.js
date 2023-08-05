@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Highlights from './components/Highlights';
 import Testimonials from './components/Testimonials';
+import About from './components/About';
+import Footer from './components/Footer';
 import './App.css';
 
 class App extends Component {
@@ -13,8 +15,8 @@ class App extends Component {
         <Hero />
         <Highlights />
         <Testimonials />
-        {/* <About />
-        <Footer /> */}
+        <About />
+        <Footer />
       </React.Fragment>
     );
   }

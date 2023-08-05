@@ -1,5 +1,5 @@
 import React from 'react';
-import RecipeCard from './partials/RecipeCard';
+import RecipeCard from './partials/scripts/RecipeCard';
 import LemonDessert from '../assets/lemonDessert.jpg';
 import Bruchetta from '../assets/bruchetta.svg';
 import GreekSalad from '../assets/greekSalad.jpg';
