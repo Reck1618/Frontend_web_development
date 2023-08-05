@@ -34,15 +34,15 @@ function Highlights () {
     return (
         <section id="highlights">
             <div id="highlights_top-row">
-                <div className="heighlight_heading">
-                    <h1>Specials</h1>
+                <div className="highlights_heading">
+                    <h1>This weeks specials</h1>
                 </div>
-                <div className="heighlight_button">
-                    <a href="/menu">Online Menu</a>
+                <div className="highlights_button">
+                    <a href="/menu" className="button">Online Menu</a>
                 </div>
             </div>
 
-            <div id="heighlights_cards">
+            <div id="highlights_cards">
                 {recipes.map((recipe) => (
                     <RecipeCard key={recipe.id} recipe={recipe} />
                 ))}

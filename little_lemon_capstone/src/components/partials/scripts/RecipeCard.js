@@ -9,7 +9,8 @@ function RecipeCard ({ recipe }) {
                 <h3>{recipe.price}</h3>
             </div>
             <p>{recipe.description}</p>
-            <p>Order a delivery</p>
+
+            <a href="#" className='button'>Order for delivery</a>
         </div>
     )
 }
