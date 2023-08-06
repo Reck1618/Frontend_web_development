@@ -9,12 +9,12 @@ function About () {
             <div className="about_content">
                 <h1>Little Lemon</h1>
                 <h5>Chicago</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                <p>Little Lemon opened in 1995 by two italian brothers, Adrian and Mario. Despite the city's diversity, the two brothers recognized the lack of Mediterranean cuisine in Chicago, and were inspired to bring the flavours of their hometown in italy to the people of Chicago. The two brothers continue to oversee the Little Lemon resturant, nearly thirty years later.</p>
             </div>
 
             <div className="about_content-img">
-                <img src={Restaurant_img} height={400} width={300}/>
-                <img src={Restaurant_chef} height={400} width={300}/>
+                <img className="img1" src={Restaurant_img} height={400} width={300}/>
+                <img className="img2" src={Restaurant_chef} height={400} width={300}/>
             </div>
         </section>
     )
