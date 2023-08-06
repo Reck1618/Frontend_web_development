@@ -1,0 +1,56 @@
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+#testimonials_cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+/* Recipe Card Container */
+
+.review_card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin: 10px 0px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.review_card h3:first-child {
+    color: var(--primary-yellow);
+}
+
+.review_card h3 span {
+    color: var(--black);
+}
+
+.review_card-content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+.review_card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.1); /* Adjust the scale value as needed */
+}
+
+.review_card img {
+    border-radius: 5px;
+    object-fit: cover;
+}
