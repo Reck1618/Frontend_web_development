@@ -1,0 +1,67 @@
+#footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+    justify-content: center;
+    gap: 60px;
+    background-color: var(--primary-green);
+}
+
+#footer_brand-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+#footer_brand-logo a img {
+    height: 200px;
+}
+
+#footer nav {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+#footer nav h5 {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+#footer nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    gap: 5px;
+}
+
+#footer nav ul li {
+    position: relative;
+    cursor: pointer;
+}
+
+#footer nav ul li a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#footer nav ul li a::after {
+    content: "";
+    position: absolute;
+    left: -4px;
+    bottom: 0px;
+    width: 2px;
+    height: 0;
+    transition: height;
+    background-color: var(--primary-yellow);
+}
+
+#footer nav ul li a:hover::after {
+    height: 100%;
+}

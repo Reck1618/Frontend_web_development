@@ -18,7 +18,7 @@ function Hero () {
             </div>
 
             <div id="hero_content-img">
-                <img src={hero_image} alt="resturant-food" width="600" height="300"/>
+                <img src={hero_image} alt="resturant-food"/>
             </div>
         </section>
     )
