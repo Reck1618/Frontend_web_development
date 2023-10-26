@@ -43,15 +43,3 @@
     color: var(--primary-green);
   }
 
-  #header_nav ul li::after {
-    content: "";
-    display: block;
-    width: 0;
-    height: 2px;
-    background-color: var(--primary-yellow);
-    transition: width 0.3s;
-  }
-
-  #header_nav ul li:hover::after {
-    width: 100%;
-  }
